@@ -1,6 +1,8 @@
-numpy @ file:///work/mkl/numpy_and_numpy_base_1682953417311/work
-sounddevice==0.5.2
-speechbrain==1.0.3
+numpy
+sounddevice
+speechbrain
 torch==2.4.1
 torchaudio==2.4.1
-torchvision==0.19.1+cu118
+torchvision
+loguru
+deepfilternet
