@@ -156,8 +156,7 @@ def main():
     for path in args.audio_files:
         if path.is_dir():
             audio_files.extend(path.glob("*.wav"))
-            audio_files.extend(path.glob("*.mp3"))
-            audio_files.extend(path.glob("*.flac"))
+            audio_files.extend(path.glob("*.ogg"))
         else:
             audio_files.append(path)
     
